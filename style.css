@@ -138,3 +138,36 @@ background-color:rgb(84, 84, 235);
 .container5:hover{
     box-shadow: 10px 5px 10px black;
 }
+
+/*Hero part css*/
+.hero-section{
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    position: relative;
+    text-align: right;
+    padding-right: 50px;
+}
+.hero-section h1{
+    padding: 30px 50px 0px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+}
+.hero-section h2{
+    padding: 10px 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(58, 58, 236);
+}
+
+.hero-section button{
+    padding: 7px 10px;
+    margin-top: 25px;
+    font-size: 18px;
+    margin-right: 110px;
+    margin-bottom: 15px;
+}
